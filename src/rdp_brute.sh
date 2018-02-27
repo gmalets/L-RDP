@@ -33,7 +33,7 @@ distrp=$(cat /etc/*-release | awk -F'=' '/DISTRIB_ID=/ {print $2}')
 	else
 		echo -e "$aquamarine[Скрипт тестировался только для $red[Kali Linux2 и ParrotSec]$aquamarine. Вы можете самостоятельно изменить код скрипта для своей ОС.]$colorbase"
 		echo -e "$aquamarine[The script was tested only for $red[Kali Linux2 & ParrotSec]$aquamarine. You are free to modify the code for your operating system]$colorbase"
-	exit 1
+	#exit 1
 fi
 }
 ######################################################################################
